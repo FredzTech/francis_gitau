@@ -9,24 +9,23 @@ const Services = () => {
   useEffect(() => {
     setServices([
       {
-        title: "Cloud Computing",
-        description: "I enjoy learning and interacting with cloud computing.",
+        title: "PCB Design",
+        description: "Bringing electronic circuit to life has always been my passion.",
         imageUrl:
-          "https://techmoran.com/wp-content/uploads/2021/03/960x0-6.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqxgreiPka0HL1fSmfTMq5aA9wlO89j4Ld1aD5FZtInCU0DqTad_s1LGLFpIb2fDfTPD8&usqp=CAU",
       },
 
       {
         title: "Embedded Software Design",
-        description: "I enjoy designing embedded softwares.",
+        description: "I enjoy designing and developing embedded softwares.",
         imageUrl:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtrW3mqO5acnbMZqGzuszx2gV6e-ohSRf8rgUD91uyTKz25SUHbBkVd5u_kEoGZeyLFKE&usqp=CAU",
       },
-
-      {
-        title: "Embedded Firmware Programming",
-        description: "I enjoy commmunication with embedded systems via code.",
+       {
+        title: "Cloud Computing",
+        description: "I enjoy learning and interacting with cloud computing.",
         imageUrl:
-          "https://freds-portfolio.s3.ap-southeast-1.amazonaws.com/AboutUs-1652489652648.jpeg",
+          "https://techmoran.com/wp-content/uploads/2021/03/960x0-6.jpg",
       },
     ]);
   }, []);
